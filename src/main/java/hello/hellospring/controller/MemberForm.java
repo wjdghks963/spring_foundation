@@ -1,9 +1,8 @@
-package hello.hellospring.domain;
+package hello.hellospring.controller;
 
-public class Member {
-    private Long id;
-    public String name;
-    public int age;
+public class MemberForm {
+    private String name;
+    private int age;
 
     public String getName() {
         return name;
@@ -19,13 +18,5 @@ public class Member {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 }
